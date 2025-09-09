@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  /* Colores base */
+  --bg-primary: #F6F8FB;
+  --bg-surface: #FFFFFF;
+  --text-primary: #0F1724;
+  --text-secondary: #64748B;
+  --accent-primary: #FF6B6B;
+  --accent-secondary: #06B6D4;
+  --accent-highlight: #F6C85F;
+
+  /* Variantes */
+  --border-subtle: #E6EEF8;
+  --shadow-sm: 0 2px 4px rgba(15, 23, 36, 0.05);
+  --shadow-md: 0 4px 6px rgba(15, 23, 36, 0.08);
+
+  /* Gradientes */
+  --header-gradient: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.98) 100%);
+
+  /* Border radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-full: 9999px;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Estilo para scrollbar moderno */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--darker-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--neon-purple);
+  border-radius: 4px;
+}
